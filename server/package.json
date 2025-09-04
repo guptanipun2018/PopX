@@ -1,0 +1,14 @@
+{
+  "name": "server",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "build-client": "cd ../client && npm install && npm run build"
+  },
+  "dependencies": {
+    "express": "^5.1.0",
+    "mongoose": "^8.18.0"
+  }
+}
+
